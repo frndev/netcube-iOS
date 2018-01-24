@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DeviceViewController" customModule="netcube" customModuleProvider="target">
+            <connections>
+                <outlet property="lineChartView" destination="Xsj-Hr-f4i" id="Bw6-zx-sb8"/>
+                <outlet property="powerLabel" destination="hid-MZ-doH" id="atl-Pw-6tk"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ibc-av-ref"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GradientView" customModule="netcube" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1600W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hid-MZ-doH">
+                    <rect key="frame" x="161" y="166" width="52" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="dER-3c-yS7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85490196078431369" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tNS-YG-e3d">
+                    <rect key="frame" x="148" y="65" width="79" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="JMc-jn-a8b"/>
+                    </constraints>
+                    <segments>
+                        <segment title="ON"/>
+                        <segment title="OFF">
+                            <size key="contentOffset" width="-1" height="0.0"/>
+                        </segment>
+                    </segments>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="sendAction:" destination="-1" eventType="valueChanged" id="5yW-M0-MUl"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xsj-Hr-f4i" customClass="LineChartView" customModule="Charts">
+                    <rect key="frame" x="0.0" y="194" width="375" height="200"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="djJ-1N-Krw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.093876421451568604" green="0.15557578206062317" blue="0.28131753206253052" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="tNS-YG-e3d" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="0Hb-uD-QfR"/>
+                <constraint firstItem="Xsj-Hr-f4i" firstAttribute="centerX" secondItem="hid-MZ-doH" secondAttribute="centerX" id="Afw-IL-m9u"/>
+                <constraint firstAttribute="trailing" secondItem="Xsj-Hr-f4i" secondAttribute="trailing" id="DTC-J6-x7X"/>
+                <constraint firstItem="tNS-YG-e3d" firstAttribute="centerX" secondItem="hid-MZ-doH" secondAttribute="centerX" id="PIa-Tz-ujQ"/>
+                <constraint firstItem="Xsj-Hr-f4i" firstAttribute="top" secondItem="hid-MZ-doH" secondAttribute="bottom" constant="8" id="k8x-hy-QIX"/>
+                <constraint firstItem="Xsj-Hr-f4i" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lhC-Wg-GpN"/>
+                <constraint firstItem="hid-MZ-doH" firstAttribute="top" secondItem="tNS-YG-e3d" secondAttribute="bottom" constant="61" id="vFb-u8-bR4"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="51.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

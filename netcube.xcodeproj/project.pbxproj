@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10041351E638483009D9A7C /* Netcube.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10041341E638483009D9A7C /* Netcube.swift */; };
+		A109AAA01E609FC5004C3289 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A109AA9E1E609FC5004C3289 /* Model.xcdatamodeld */; };
+		A109AAA41E60A5B9004C3289 /* ESPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A109AAA21E60A5B9004C3289 /* ESPViewController.xib */; };
+		A10A8CB41E9BDAB1009258BA /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10A8CAB1E9BDAB1009258BA /* DatePickerCell.xib */; };
+		A10A8CB51E9BDAB1009258BA /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = A10A8CAC1E9BDAB1009258BA /* CellDescriptor.plist */; };
+		A10A8CB61E9BDAB1009258BA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10A8CAD1E9BDAB1009258BA /* CustomCell.swift */; };
+		A10A8CB71E9BDAB1009258BA /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10A8CAE1E9BDAB1009258BA /* NormalCell.xib */; };
+		A10A8CB81E9BDAB1009258BA /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10A8CAF1E9BDAB1009258BA /* SliderCell.xib */; };
+		A10A8CB91E9BDAB1009258BA /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10A8CB01E9BDAB1009258BA /* SwitchCell.xib */; };
+		A10A8CBA1E9BDAB1009258BA /* TextfieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10A8CB11E9BDAB1009258BA /* TextfieldCell.xib */; };
+		A10A8CBB1E9BDAB1009258BA /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10A8CB21E9BDAB1009258BA /* ValuePickerCell.xib */; };
+		A10C41DB1E5F6E7200C6EB1B /* MQTTConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C41DA1E5F6E7200C6EB1B /* MQTTConstants.swift */; };
+		A11EAA8C1E6307940049A2FB /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11EAA8A1E6307940049A2FB /* ConfigurationViewController.swift */; };
+		A11EAA8D1E6307940049A2FB /* ConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11EAA8B1E6307940049A2FB /* ConfigurationViewController.xib */; };
+		A11EAA8F1E6367140049A2FB /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11EAA8E1E6367140049A2FB /* AlertManager.swift */; };
+		A1435A921EF67A39002A0D85 /* DeviceMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1435A901EF67A39002A0D85 /* DeviceMusicViewController.swift */; };
+		A1435A931EF67A39002A0D85 /* DeviceMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1435A911EF67A39002A0D85 /* DeviceMusicViewController.xib */; };
+		A166FF841DEB49CA000DCFB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A166FF831DEB49CA000DCFB6 /* AppDelegate.swift */; };
+		A166FF861DEB49CA000DCFB6 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A166FF851DEB49CA000DCFB6 /* DeviceViewController.swift */; };
+		A166FF8B1DEB49CA000DCFB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A166FF8A1DEB49CA000DCFB6 /* Assets.xcassets */; };
+		A166FF8E1DEB49CA000DCFB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A166FF8C1DEB49CA000DCFB6 /* LaunchScreen.storyboard */; };
+		A181AA2A1E3010D300EB3958 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181AA281E3010D300EB3958 /* DeviceTableViewCell.swift */; };
+		A181AA2B1E3010D300EB3958 /* DeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A181AA291E3010D300EB3958 /* DeviceTableViewCell.xib */; };
+		A18F37EE1E0EB32F00E038C8 /* DeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18F37ED1E0EB32F00E038C8 /* DeviceViewController.xib */; };
+		A19416931E923C0700974E40 /* GradientView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A19416921E923C0700974E40 /* GradientView.xib */; };
+		A19416951E923C4200974E40 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19416941E923C4200974E40 /* GradientView.swift */; };
+		A19D376B1E6B27500056A4C5 /* ESPWebServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D37691E6B27500056A4C5 /* ESPWebServerViewController.swift */; };
+		A19D376C1E6B27500056A4C5 /* ESPWebServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A19D376A1E6B27500056A4C5 /* ESPWebServerViewController.xib */; };
+		A1B1058B1E675343001B84B3 /* AddDevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B1058A1E675343001B84B3 /* AddDevice.storyboard */; };
+		A1B105B41E675639001B84B3 /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105931E675639001B84B3 /* ESP_ByteUtil.m */; };
+		A1B105B51E675639001B84B3 /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105951E675639001B84B3 /* ESP_CRC8.m */; };
+		A1B105B61E675639001B84B3 /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105971E675639001B84B3 /* ESP_NetUtil.m */; };
+		A1B105B71E675639001B84B3 /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105991E675639001B84B3 /* ESP_WifiUtil.m */; };
+		A1B105B81E675639001B84B3 /* ESPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B1059B1E675639001B84B3 /* ESPAppDelegate.m */; };
+		A1B105B91E675639001B84B3 /* ESPDataCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B1059D1E675639001B84B3 /* ESPDataCode.m */; };
+		A1B105BA1E675639001B84B3 /* ESPDatumCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B1059F1E675639001B84B3 /* ESPDatumCode.m */; };
+		A1B105BB1E675639001B84B3 /* ESPGuideCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105A11E675639001B84B3 /* ESPGuideCode.m */; };
+		A1B105BC1E675639001B84B3 /* EspTouchDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1B105A31E675639001B84B3 /* EspTouchDemo-Info.plist */; };
+		A1B105BD1E675639001B84B3 /* ESPTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105A61E675639001B84B3 /* ESPTouchGenerator.m */; };
+		A1B105BE1E675639001B84B3 /* ESPTouchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105A81E675639001B84B3 /* ESPTouchResult.m */; };
+		A1B105BF1E675639001B84B3 /* ESPTouchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105AA1E675639001B84B3 /* ESPTouchTask.m */; };
+		A1B105C01E675639001B84B3 /* ESPTouchTaskParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105AC1E675639001B84B3 /* ESPTouchTaskParameter.m */; };
+		A1B105C11E675639001B84B3 /* ESPUDPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105AE1E675639001B84B3 /* ESPUDPSocketClient.m */; };
+		A1B105C21E675639001B84B3 /* ESPUDPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105B01E675639001B84B3 /* ESPUDPSocketServer.m */; };
+		A1B105C31E675639001B84B3 /* ESPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B105B31E675639001B84B3 /* ESPViewController.m */; };
+		A1C051E91E917C92002D0A0E /* PlugsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C051E71E917C92002D0A0E /* PlugsCollectionViewController.swift */; };
+		A1C051EA1E917C92002D0A0E /* PlugsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1C051E81E917C92002D0A0E /* PlugsCollectionViewController.xib */; };
+		A1C051ED1E917E31002D0A0E /* CoreDataCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C051EC1E917E31002D0A0E /* CoreDataCollectionViewController.swift */; };
+		A1C051F01E918527002D0A0E /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C051EE1E918527002D0A0E /* DeviceCollectionViewCell.swift */; };
+		A1C051F11E918527002D0A0E /* DeviceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1C051EF1E918527002D0A0E /* DeviceCollectionViewCell.xib */; };
+		A1C8F64F1E62FE0D002C9FB6 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F64E1E62FE0D002C9FB6 /* Navigator.swift */; };
+		A1DBC6701E6076A6007A5955 /* ChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBC66F1E6076A6007A5955 /* ChartManager.swift */; };
+		A1DBC6721E607962007A5955 /* ConsumptionChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBC6711E607962007A5955 /* ConsumptionChartDelegate.swift */; };
+		A1E4040C1E6AD3FB005D3A1C /* Device+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E4040A1E6AD3FB005D3A1C /* Device+CoreDataClass.swift */; };
+		A1E4040D1E6AD3FC005D3A1C /* Device+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E4040B1E6AD3FB005D3A1C /* Device+CoreDataProperties.swift */; };
+		E7F43B901B3DE2F14F5AAD53 /* Pods_netcube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123AC0FBC93940FCD01E54D8 /* Pods_netcube.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		123AC0FBC93940FCD01E54D8 /* Pods_netcube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netcube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394568727373210F940C25B4 /* Pods-netcube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netcube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netcube/Pods-netcube.debug.xcconfig"; sourceTree = "<group>"; };
+		7B69D1B4CFF27345055BFD20 /* Pods-netcube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netcube.release.xcconfig"; path = "Pods/Target Support Files/Pods-netcube/Pods-netcube.release.xcconfig"; sourceTree = "<group>"; };
+		A10041341E638483009D9A7C /* Netcube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Netcube.swift; sourceTree = "<group>"; };
+		A109AA9F1E609FC5004C3289 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A109AAA21E60A5B9004C3289 /* ESPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESPViewController.xib; sourceTree = "<group>"; };
+		A10A8CAB1E9BDAB1009258BA /* DatePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
+		A10A8CAC1E9BDAB1009258BA /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
+		A10A8CAD1E9BDAB1009258BA /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		A10A8CAE1E9BDAB1009258BA /* NormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalCell.xib; sourceTree = "<group>"; };
+		A10A8CAF1E9BDAB1009258BA /* SliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		A10A8CB01E9BDAB1009258BA /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		A10A8CB11E9BDAB1009258BA /* TextfieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextfieldCell.xib; sourceTree = "<group>"; };
+		A10A8CB21E9BDAB1009258BA /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
+		A10C41DA1E5F6E7200C6EB1B /* MQTTConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQTTConstants.swift; sourceTree = "<group>"; };
+		A11EAA8A1E6307940049A2FB /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		A11EAA8B1E6307940049A2FB /* ConfigurationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigurationViewController.xib; sourceTree = "<group>"; };
+		A11EAA8E1E6367140049A2FB /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		A1435A901EF67A39002A0D85 /* DeviceMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceMusicViewController.swift; sourceTree = "<group>"; };
+		A1435A911EF67A39002A0D85 /* DeviceMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceMusicViewController.xib; sourceTree = "<group>"; };
+		A166FF801DEB49CA000DCFB6 /* netcube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netcube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A166FF831DEB49CA000DCFB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A166FF851DEB49CA000DCFB6 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		A166FF8A1DEB49CA000DCFB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A166FF8D1DEB49CA000DCFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A166FF8F1DEB49CA000DCFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A181AA281E3010D300EB3958 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		A181AA291E3010D300EB3958 /* DeviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceTableViewCell.xib; sourceTree = "<group>"; };
+		A18F37ED1E0EB32F00E038C8 /* DeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceViewController.xib; sourceTree = "<group>"; };
+		A19416921E923C0700974E40 /* GradientView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientView.xib; sourceTree = "<group>"; };
+		A19416941E923C4200974E40 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A19D37691E6B27500056A4C5 /* ESPWebServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPWebServerViewController.swift; sourceTree = "<group>"; };
+		A19D376A1E6B27500056A4C5 /* ESPWebServerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESPWebServerViewController.xib; sourceTree = "<group>"; };
+		A1B1058A1E675343001B84B3 /* AddDevice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddDevice.storyboard; sourceTree = "<group>"; };
+		A1B1058C1E6753B1001B84B3 /* netcube-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "netcube-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1B105921E675639001B84B3 /* ESP_ByteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
+		A1B105931E675639001B84B3 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
+		A1B105941E675639001B84B3 /* ESP_CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
+		A1B105951E675639001B84B3 /* ESP_CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
+		A1B105961E675639001B84B3 /* ESP_NetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		A1B105971E675639001B84B3 /* ESP_NetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
+		A1B105981E675639001B84B3 /* ESP_WifiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_WifiUtil.h; sourceTree = "<group>"; };
+		A1B105991E675639001B84B3 /* ESP_WifiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_WifiUtil.m; sourceTree = "<group>"; };
+		A1B1059A1E675639001B84B3 /* ESPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPAppDelegate.h; sourceTree = "<group>"; };
+		A1B1059B1E675639001B84B3 /* ESPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPAppDelegate.m; sourceTree = "<group>"; };
+		A1B1059C1E675639001B84B3 /* ESPDataCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDataCode.h; sourceTree = "<group>"; };
+		A1B1059D1E675639001B84B3 /* ESPDataCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDataCode.m; sourceTree = "<group>"; };
+		A1B1059E1E675639001B84B3 /* ESPDatumCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDatumCode.h; sourceTree = "<group>"; };
+		A1B1059F1E675639001B84B3 /* ESPDatumCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDatumCode.m; sourceTree = "<group>"; };
+		A1B105A01E675639001B84B3 /* ESPGuideCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPGuideCode.h; sourceTree = "<group>"; };
+		A1B105A11E675639001B84B3 /* ESPGuideCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPGuideCode.m; sourceTree = "<group>"; };
+		A1B105A21E675639001B84B3 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
+		A1B105A31E675639001B84B3 /* EspTouchDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EspTouchDemo-Info.plist"; sourceTree = "<group>"; };
+		A1B105A41E675639001B84B3 /* EspTouchDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EspTouchDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A1B105A51E675639001B84B3 /* ESPTouchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchGenerator.h; sourceTree = "<group>"; };
+		A1B105A61E675639001B84B3 /* ESPTouchGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchGenerator.m; sourceTree = "<group>"; };
+		A1B105A71E675639001B84B3 /* ESPTouchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
+		A1B105A81E675639001B84B3 /* ESPTouchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchResult.m; sourceTree = "<group>"; };
+		A1B105A91E675639001B84B3 /* ESPTouchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
+		A1B105AA1E675639001B84B3 /* ESPTouchTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTask.m; sourceTree = "<group>"; };
+		A1B105AB1E675639001B84B3 /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTaskParameter.h; sourceTree = "<group>"; };
+		A1B105AC1E675639001B84B3 /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTaskParameter.m; sourceTree = "<group>"; };
+		A1B105AD1E675639001B84B3 /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketClient.h; sourceTree = "<group>"; };
+		A1B105AE1E675639001B84B3 /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketClient.m; sourceTree = "<group>"; };
+		A1B105AF1E675639001B84B3 /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketServer.h; sourceTree = "<group>"; };
+		A1B105B01E675639001B84B3 /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketServer.m; sourceTree = "<group>"; };
+		A1B105B11E675639001B84B3 /* ESPVersionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPVersionMacro.h; sourceTree = "<group>"; };
+		A1B105B21E675639001B84B3 /* ESPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPViewController.h; sourceTree = "<group>"; };
+		A1B105B31E675639001B84B3 /* ESPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPViewController.m; sourceTree = "<group>"; };
+		A1C051E71E917C92002D0A0E /* PlugsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlugsCollectionViewController.swift; sourceTree = "<group>"; };
+		A1C051E81E917C92002D0A0E /* PlugsCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlugsCollectionViewController.xib; sourceTree = "<group>"; };
+		A1C051EC1E917E31002D0A0E /* CoreDataCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataCollectionViewController.swift; sourceTree = "<group>"; };
+		A1C051EE1E918527002D0A0E /* DeviceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1C051EF1E918527002D0A0E /* DeviceCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceCollectionViewCell.xib; sourceTree = "<group>"; };
+		A1C8F64E1E62FE0D002C9FB6 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		A1DBC66F1E6076A6007A5955 /* ChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartManager.swift; sourceTree = "<group>"; };
+		A1DBC6711E607962007A5955 /* ConsumptionChartDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumptionChartDelegate.swift; sourceTree = "<group>"; };
+		A1E4040A1E6AD3FB005D3A1C /* Device+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Device+CoreDataClass.swift"; path = "netcube/models/Device+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A1E4040B1E6AD3FB005D3A1C /* Device+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Device+CoreDataProperties.swift"; path = "netcube/models/Device+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A166FF7D1DEB49CA000DCFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F43B901B3DE2F14F5AAD53 /* Pods_netcube.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76694A594D513974A38D8F03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				123AC0FBC93940FCD01E54D8 /* Pods_netcube.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10572A71E606C89001D1160 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1E78F1C2018DBEA0057F03F /* ESP Server */,
+				A1E78F1A2018DB920057F03F /* Configuration */,
+				A1E78F1B2018DBB90057F03F /* Bluetooth music device */,
+				A1E78F1D2018DC0C0057F03F /* Devices Detail Controllers */,
+				A1E78F1E2018DC250057F03F /* Main Interface */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A10572A81E606C8F001D1160 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A181AA281E3010D300EB3958 /* DeviceTableViewCell.swift */,
+				A181AA291E3010D300EB3958 /* DeviceTableViewCell.xib */,
+				A1C051EE1E918527002D0A0E /* DeviceCollectionViewCell.swift */,
+				A1C051EF1E918527002D0A0E /* DeviceCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A10572A91E606C95001D1160 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A1DBC66F1E6076A6007A5955 /* ChartManager.swift */,
+				A1DBC6711E607962007A5955 /* ConsumptionChartDelegate.swift */,
+				A1C8F64E1E62FE0D002C9FB6 /* Navigator.swift */,
+				A11EAA8E1E6367140049A2FB /* AlertManager.swift */,
+				A10041341E638483009D9A7C /* Netcube.swift */,
+				A19416921E923C0700974E40 /* GradientView.xib */,
+				A19416941E923C4200974E40 /* GradientView.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		A109AA9A1E609CE0004C3289 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A10C41DA1E5F6E7200C6EB1B /* MQTTConstants.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		A166FF771DEB49CA000DCFB6 = {
+			isa = PBXGroup;
+			children = (
+				A109AA9E1E609FC5004C3289 /* Model.xcdatamodeld */,
+				A166FF821DEB49CA000DCFB6 /* netcube */,
+				A166FF811DEB49CA000DCFB6 /* Products */,
+				C8CF3FE77A3316C4817D7A6F /* Pods */,
+				76694A594D513974A38D8F03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A166FF811DEB49CA000DCFB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A166FF801DEB49CA000DCFB6 /* netcube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A166FF821DEB49CA000DCFB6 /* netcube */ = {
+			isa = PBXGroup;
+			children = (
+				A1C051EB1E917E24002D0A0E /* CoreData */,
+				A1E4040E1E6AD407005D3A1C /* Models */,
+				A1B105C51E67569D001B84B3 /* SmartConfig */,
+				A109AA9A1E609CE0004C3289 /* API */,
+				A166FF831DEB49CA000DCFB6 /* AppDelegate.swift */,
+				A10572A71E606C89001D1160 /* Controllers */,
+				A10572A81E606C8F001D1160 /* Cells */,
+				A10572A91E606C95001D1160 /* Utils */,
+				A166FF8A1DEB49CA000DCFB6 /* Assets.xcassets */,
+				A1B1058C1E6753B1001B84B3 /* netcube-Bridging-Header.h */,
+				A1B1058A1E675343001B84B3 /* AddDevice.storyboard */,
+				A166FF8C1DEB49CA000DCFB6 /* LaunchScreen.storyboard */,
+				A166FF8F1DEB49CA000DCFB6 /* Info.plist */,
+			);
+			path = netcube;
+			sourceTree = "<group>";
+		};
+		A1B105C51E67569D001B84B3 /* SmartConfig */ = {
+			isa = PBXGroup;
+			children = (
+				A1B105921E675639001B84B3 /* ESP_ByteUtil.h */,
+				A1B105931E675639001B84B3 /* ESP_ByteUtil.m */,
+				A1B105941E675639001B84B3 /* ESP_CRC8.h */,
+				A1B105951E675639001B84B3 /* ESP_CRC8.m */,
+				A1B105961E675639001B84B3 /* ESP_NetUtil.h */,
+				A1B105971E675639001B84B3 /* ESP_NetUtil.m */,
+				A1B105981E675639001B84B3 /* ESP_WifiUtil.h */,
+				A1B105991E675639001B84B3 /* ESP_WifiUtil.m */,
+				A1B1059A1E675639001B84B3 /* ESPAppDelegate.h */,
+				A1B1059B1E675639001B84B3 /* ESPAppDelegate.m */,
+				A1B1059C1E675639001B84B3 /* ESPDataCode.h */,
+				A1B1059D1E675639001B84B3 /* ESPDataCode.m */,
+				A1B1059E1E675639001B84B3 /* ESPDatumCode.h */,
+				A1B1059F1E675639001B84B3 /* ESPDatumCode.m */,
+				A1B105A01E675639001B84B3 /* ESPGuideCode.h */,
+				A1B105A11E675639001B84B3 /* ESPGuideCode.m */,
+				A1B105A21E675639001B84B3 /* ESPTouchDelegate.h */,
+				A1B105A31E675639001B84B3 /* EspTouchDemo-Info.plist */,
+				A1B105A41E675639001B84B3 /* EspTouchDemo-Prefix.pch */,
+				A1B105A51E675639001B84B3 /* ESPTouchGenerator.h */,
+				A1B105A61E675639001B84B3 /* ESPTouchGenerator.m */,
+				A1B105A71E675639001B84B3 /* ESPTouchResult.h */,
+				A1B105A81E675639001B84B3 /* ESPTouchResult.m */,
+				A1B105A91E675639001B84B3 /* ESPTouchTask.h */,
+				A1B105AA1E675639001B84B3 /* ESPTouchTask.m */,
+				A1B105AB1E675639001B84B3 /* ESPTouchTaskParameter.h */,
+				A1B105AC1E675639001B84B3 /* ESPTouchTaskParameter.m */,
+				A1B105AD1E675639001B84B3 /* ESPUDPSocketClient.h */,
+				A1B105AE1E675639001B84B3 /* ESPUDPSocketClient.m */,
+				A1B105AF1E675639001B84B3 /* ESPUDPSocketServer.h */,
+				A1B105B01E675639001B84B3 /* ESPUDPSocketServer.m */,
+				A1B105B11E675639001B84B3 /* ESPVersionMacro.h */,
+				A1B105B21E675639001B84B3 /* ESPViewController.h */,
+				A1B105B31E675639001B84B3 /* ESPViewController.m */,
+				A109AAA21E60A5B9004C3289 /* ESPViewController.xib */,
+			);
+			name = SmartConfig;
+			sourceTree = "<group>";
+		};
+		A1C051EB1E917E24002D0A0E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A1C051EC1E917E31002D0A0E /* CoreDataCollectionViewController.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		A1E4040E1E6AD407005D3A1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1E4040A1E6AD3FB005D3A1C /* Device+CoreDataClass.swift */,
+				A1E4040B1E6AD3FB005D3A1C /* Device+CoreDataProperties.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A1E78F192018DB7A0057F03F /* Cell Descriptors */ = {
+			isa = PBXGroup;
+			children = (
+				A10A8CAB1E9BDAB1009258BA /* DatePickerCell.xib */,
+				A10A8CAC1E9BDAB1009258BA /* CellDescriptor.plist */,
+				A10A8CAD1E9BDAB1009258BA /* CustomCell.swift */,
+				A10A8CAE1E9BDAB1009258BA /* NormalCell.xib */,
+				A10A8CAF1E9BDAB1009258BA /* SliderCell.xib */,
+				A10A8CB01E9BDAB1009258BA /* SwitchCell.xib */,
+				A10A8CB11E9BDAB1009258BA /* TextfieldCell.xib */,
+				A10A8CB21E9BDAB1009258BA /* ValuePickerCell.xib */,
+			);
+			name = "Cell Descriptors";
+			sourceTree = "<group>";
+		};
+		A1E78F1A2018DB920057F03F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A1E78F192018DB7A0057F03F /* Cell Descriptors */,
+				A11EAA8A1E6307940049A2FB /* ConfigurationViewController.swift */,
+				A11EAA8B1E6307940049A2FB /* ConfigurationViewController.xib */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		A1E78F1B2018DBB90057F03F /* Bluetooth music device */ = {
+			isa = PBXGroup;
+			children = (
+				A1435A901EF67A39002A0D85 /* DeviceMusicViewController.swift */,
+				A1435A911EF67A39002A0D85 /* DeviceMusicViewController.xib */,
+			);
+			name = "Bluetooth music device";
+			sourceTree = "<group>";
+		};
+		A1E78F1C2018DBEA0057F03F /* ESP Server */ = {
+			isa = PBXGroup;
+			children = (
+				A19D37691E6B27500056A4C5 /* ESPWebServerViewController.swift */,
+				A19D376A1E6B27500056A4C5 /* ESPWebServerViewController.xib */,
+			);
+			name = "ESP Server";
+			sourceTree = "<group>";
+		};
+		A1E78F1D2018DC0C0057F03F /* Devices Detail Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A166FF851DEB49CA000DCFB6 /* DeviceViewController.swift */,
+				A18F37ED1E0EB32F00E038C8 /* DeviceViewController.xib */,
+			);
+			name = "Devices Detail Controllers";
+			sourceTree = "<group>";
+		};
+		A1E78F1E2018DC250057F03F /* Main Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A1C051E71E917C92002D0A0E /* PlugsCollectionViewController.swift */,
+				A1C051E81E917C92002D0A0E /* PlugsCollectionViewController.xib */,
+			);
+			name = "Main Interface";
+			sourceTree = "<group>";
+		};
+		C8CF3FE77A3316C4817D7A6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				394568727373210F940C25B4 /* Pods-netcube.debug.xcconfig */,
+				7B69D1B4CFF27345055BFD20 /* Pods-netcube.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A166FF7F1DEB49CA000DCFB6 /* netcube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A166FF921DEB49CA000DCFB6 /* Build configuration list for PBXNativeTarget "netcube" */;
+			buildPhases = (
+				E8E008327BF76A8BA93E7B2F /* [CP] Check Pods Manifest.lock */,
+				A166FF7C1DEB49CA000DCFB6 /* Sources */,
+				A166FF7D1DEB49CA000DCFB6 /* Frameworks */,
+				A166FF7E1DEB49CA000DCFB6 /* Resources */,
+				28708524DC1A3350A4466211 /* [CP] Embed Pods Frameworks */,
+				F6B9021B318B631EE0BFBEB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = netcube;
+			productName = netcube;
+			productReference = A166FF801DEB49CA000DCFB6 /* netcube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A166FF781DEB49CA000DCFB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Francisco Navarro Aguilar";
+				TargetAttributes = {
+					A166FF7F1DEB49CA000DCFB6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X44M3PTYDX;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A166FF7B1DEB49CA000DCFB6 /* Build configuration list for PBXProject "netcube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A166FF771DEB49CA000DCFB6;
+			productRefGroup = A166FF811DEB49CA000DCFB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A166FF7F1DEB49CA000DCFB6 /* netcube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A166FF7E1DEB49CA000DCFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A166FF8E1DEB49CA000DCFB6 /* LaunchScreen.storyboard in Resources */,
+				A10A8CB51E9BDAB1009258BA /* CellDescriptor.plist in Resources */,
+				A11EAA8D1E6307940049A2FB /* ConfigurationViewController.xib in Resources */,
+				A18F37EE1E0EB32F00E038C8 /* DeviceViewController.xib in Resources */,
+				A10A8CB41E9BDAB1009258BA /* DatePickerCell.xib in Resources */,
+				A10A8CB91E9BDAB1009258BA /* SwitchCell.xib in Resources */,
+				A19D376C1E6B27500056A4C5 /* ESPWebServerViewController.xib in Resources */,
+				A10A8CBB1E9BDAB1009258BA /* ValuePickerCell.xib in Resources */,
+				A1C051F11E918527002D0A0E /* DeviceCollectionViewCell.xib in Resources */,
+				A19416931E923C0700974E40 /* GradientView.xib in Resources */,
+				A10A8CB71E9BDAB1009258BA /* NormalCell.xib in Resources */,
+				A10A8CB81E9BDAB1009258BA /* SliderCell.xib in Resources */,
+				A10A8CBA1E9BDAB1009258BA /* TextfieldCell.xib in Resources */,
+				A181AA2B1E3010D300EB3958 /* DeviceTableViewCell.xib in Resources */,
+				A1B1058B1E675343001B84B3 /* AddDevice.storyboard in Resources */,
+				A166FF8B1DEB49CA000DCFB6 /* Assets.xcassets in Resources */,
+				A1435A931EF67A39002A0D85 /* DeviceMusicViewController.xib in Resources */,
+				A1C051EA1E917C92002D0A0E /* PlugsCollectionViewController.xib in Resources */,
+				A1B105BC1E675639001B84B3 /* EspTouchDemo-Info.plist in Resources */,
+				A109AAA41E60A5B9004C3289 /* ESPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28708524DC1A3350A4466211 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netcube/Pods-netcube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E008327BF76A8BA93E7B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B9021B318B631EE0BFBEB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netcube/Pods-netcube-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A166FF7C1DEB49CA000DCFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B105C31E675639001B84B3 /* ESPViewController.m in Sources */,
+				A10C41DB1E5F6E7200C6EB1B /* MQTTConstants.swift in Sources */,
+				A166FF861DEB49CA000DCFB6 /* DeviceViewController.swift in Sources */,
+				A1DBC6721E607962007A5955 /* ConsumptionChartDelegate.swift in Sources */,
+				A1C8F64F1E62FE0D002C9FB6 /* Navigator.swift in Sources */,
+				A1435A921EF67A39002A0D85 /* DeviceMusicViewController.swift in Sources */,
+				A1B105C11E675639001B84B3 /* ESPUDPSocketClient.m in Sources */,
+				A1E4040D1E6AD3FC005D3A1C /* Device+CoreDataProperties.swift in Sources */,
+				A1B105BE1E675639001B84B3 /* ESPTouchResult.m in Sources */,
+				A1B105B91E675639001B84B3 /* ESPDataCode.m in Sources */,
+				A1B105BB1E675639001B84B3 /* ESPGuideCode.m in Sources */,
+				A1B105BD1E675639001B84B3 /* ESPTouchGenerator.m in Sources */,
+				A11EAA8F1E6367140049A2FB /* AlertManager.swift in Sources */,
+				A1C051ED1E917E31002D0A0E /* CoreDataCollectionViewController.swift in Sources */,
+				A1B105B41E675639001B84B3 /* ESP_ByteUtil.m in Sources */,
+				A11EAA8C1E6307940049A2FB /* ConfigurationViewController.swift in Sources */,
+				A19D376B1E6B27500056A4C5 /* ESPWebServerViewController.swift in Sources */,
+				A1B105BA1E675639001B84B3 /* ESPDatumCode.m in Sources */,
+				A1B105B81E675639001B84B3 /* ESPAppDelegate.m in Sources */,
+				A1B105B61E675639001B84B3 /* ESP_NetUtil.m in Sources */,
+				A10041351E638483009D9A7C /* Netcube.swift in Sources */,
+				A1C051E91E917C92002D0A0E /* PlugsCollectionViewController.swift in Sources */,
+				A10A8CB61E9BDAB1009258BA /* CustomCell.swift in Sources */,
+				A1C051F01E918527002D0A0E /* DeviceCollectionViewCell.swift in Sources */,
+				A1E4040C1E6AD3FB005D3A1C /* Device+CoreDataClass.swift in Sources */,
+				A1B105C01E675639001B84B3 /* ESPTouchTaskParameter.m in Sources */,
+				A1B105B71E675639001B84B3 /* ESP_WifiUtil.m in Sources */,
+				A109AAA01E609FC5004C3289 /* Model.xcdatamodeld in Sources */,
+				A1B105B51E675639001B84B3 /* ESP_CRC8.m in Sources */,
+				A166FF841DEB49CA000DCFB6 /* AppDelegate.swift in Sources */,
+				A1B105C21E675639001B84B3 /* ESPUDPSocketServer.m in Sources */,
+				A1DBC6701E6076A6007A5955 /* ChartManager.swift in Sources */,
+				A19416951E923C4200974E40 /* GradientView.swift in Sources */,
+				A1B105BF1E675639001B84B3 /* ESPTouchTask.m in Sources */,
+				A181AA2A1E3010D300EB3958 /* DeviceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A166FF8C1DEB49CA000DCFB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A166FF8D1DEB49CA000DCFB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A166FF901DEB49CA000DCFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A166FF911DEB49CA000DCFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A166FF931DEB49CA000DCFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394568727373210F940C25B4 /* Pods-netcube.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X44M3PTYDX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = netcube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.francisco.netcube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./netcube/netcube-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A166FF941DEB49CA000DCFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B69D1B4CFF27345055BFD20 /* Pods-netcube.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X44M3PTYDX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = netcube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.francisco.netcube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./netcube/netcube-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A166FF7B1DEB49CA000DCFB6 /* Build configuration list for PBXProject "netcube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A166FF901DEB49CA000DCFB6 /* Debug */,
+				A166FF911DEB49CA000DCFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A166FF921DEB49CA000DCFB6 /* Build configuration list for PBXNativeTarget "netcube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A166FF931DEB49CA000DCFB6 /* Debug */,
+				A166FF941DEB49CA000DCFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A109AA9E1E609FC5004C3289 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A109AA9F1E609FC5004C3289 /* Model.xcdatamodel */,
+			);
+			currentVersion = A109AA9F1E609FC5004C3289 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = netcube/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A166FF781DEB49CA000DCFB6 /* Project object */;
+}
